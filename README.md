@@ -15,13 +15,15 @@ Source: https://dev.twitter.com/start
 
 *Search API* ou la *Streaming API*. La *Search API* est destinée à effectuer des recherches rapides, mais les corpus sont réduits je pense, voir la rapidité des serveurs. Plutôt centré sur les productions utilisateurs pas utilisateurs. Cette API est idéale pour les applications mobiles, à connexions lentes, réduites.
 
-La *Streaming API* est beaucoup plus robuste mais nécessite de pouvoir effectuer des connexion HTTP persistantes et maintenues (bonne connexion Internet). D'autre part, «If you're currently developing on the Search API, and find that your application is being rate-limited or you just have aggressive querying needs, then you should be moving over to the Streaming API». En fait, «The Streaming API results are a superset of the Search API result» (https://dev.twitter.com/docs/streaming-api/concepts).
+La *Streaming API* est beaucoup plus robuste mais nécessite de pouvoir effectuer des connexion HTTP persistantes et maintenues (bonne connexion Internet). D'autre part, «If you're currently developing on the Search API, and find that your application is being rate-limited or you just have aggressive querying needs, then you should be moving over to the Streaming API». En fait, «The Streaming API results are a superset of the Search API result».
 
 Je pense qu'il est plus intéressant pour nous de partir sur une base de *Streaming API*, bien que les limites soient les suivantes:
 
 * sur les données récupérables: «Statuses created by protected accounts and all direct messages are non-public and are currently not available via the Streaming API, but are available on User Streams and Site Streams».
 * sur les limites de fréquences de connexions: 
 * sur le corpus: Twitter filtre les corpus de twits accessible via son API. Par exemple «frequent and repetitious status updates may, in some instances, and in combination with other metrics, result in a different status quality score for a given account», comptes suspendus, etc.
+
+Source: https://dev.twitter.com/docs/streaming-api/concepts
 
 ## Précautions d'emploi
 
