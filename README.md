@@ -1,6 +1,6 @@
-# Twitter scraper
+# Twitter-scraper
 
-Twitter scrape n'est pas un scraper à proprement parler car cette application utilise l'API de twitter pour effectuer ses requêtes. Les réponses du serveur Twitter sont ensuite redirigées vers des services locaux de datamining/visualisation.
+Twitter-scraper utilise l'API de Twitter pour effectuer ses requêtes. Les réponses du serveur Twitter sont ensuite redirigées vers des services de datamining/visualisation (ce n'est donc pas un scraper à proprement parler).
 
 Roadmap:
 
