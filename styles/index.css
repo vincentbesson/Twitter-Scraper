@@ -1,0 +1,46 @@
+html, body, div {
+	padding: 0;
+	margin: 0;
+}
+
+#container {
+	width: 50%;
+	margin: auto;
+	margin-top: 1%;
+}
+
+#graph {
+	margin-top:3%;
+	width: 100%;
+}
+
+#loader {
+	width: 100%;
+	border-top: 4px solid #DDD;
+	padding 0;
+	margin: 0;
+}
+
+#progress{
+	display: block;
+	width: 0%;
+	height: 2px;
+	background-color: lightblue;
+	border-right: 2px solid #555;
+	padding: 0;
+	margin: 0;
+}
+
+.bar {
+	margin: 1% 0 1% 0;
+	border: solid 1px #FFF;
+	background-color: lightblue;
+	height: 3em;
+	font-size: 1em;
+	line-height: 3em;
+	font-family: Arial;
+	color: #777;
+	border-right: 1px solid #333;
+}
+
+/* Jquery pour trouver le height de tout écran */
