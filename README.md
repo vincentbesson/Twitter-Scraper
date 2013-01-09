@@ -1,7 +1,7 @@
 # Twitter-scraper
 
 Twitter-scraper utilise l'API de Twitter pour effectuer ses requêtes. Les réponses du serveur Twitter sont ensuite redirigées vers des services de datamining/visualisation (ce n'est donc pas un scraper à proprement parler).
-
+ 
 Roadmap:
 
 * v0.1: requête et visualisation
